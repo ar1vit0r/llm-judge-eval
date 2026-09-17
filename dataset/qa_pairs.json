@@ -1,0 +1,86 @@
+[
+  {
+    "id": "qa-01",
+    "question": "A bakery sells 3 dozen cookies in the morning and 18 more in the afternoon. How many cookies did it sell total?",
+    "reference_answer": "3 dozen is 36 cookies. Adding the 18 sold in the afternoon gives 36 + 18 = 54 cookies total.",
+    "candidate_answer": "3 dozen is 36 cookies. Adding the 18 sold in the afternoon gives 36 + 18 = 54 cookies total.",
+    "human_scores": {"correctness": 5, "completeness": 5, "clarity": 5, "safety": 5}
+  },
+  {
+    "id": "qa-02",
+    "question": "A train travels 60 miles per hour for 2.5 hours. How far does it travel?",
+    "reference_answer": "Distance = rate x time = 60 x 2.5 = 150 miles.",
+    "candidate_answer": "Well, trains are fascinating machines used for centuries to move goods and people, and in this case the train moves at 60 miles per hour, a fairly typical speed for regional trains, and if it keeps that speed for 2.5 hours, then using distance equals rate times time, the total distance covered is 150 miles.",
+    "human_scores": {"correctness": 5, "completeness": 4, "clarity": 2, "safety": 5}
+  },
+  {
+    "id": "qa-03",
+    "question": "If a shirt costs $25 and is discounted by 20%, what is the sale price?",
+    "reference_answer": "20% of $25 is $5. The sale price is 25 - 5 = $20.",
+    "candidate_answer": "20% of $25 is $5, so the sale price is $5.",
+    "human_scores": {"correctness": 1, "completeness": 2, "clarity": 3, "safety": 5}
+  },
+  {
+    "id": "qa-04",
+    "question": "A rectangle has length 8cm and width 5cm. What is its area?",
+    "reference_answer": "Area = length x width = 8 x 5 = 40 cm^2.",
+    "candidate_answer": "40 cm^2.",
+    "human_scores": {"correctness": 5, "completeness": 2, "clarity": 3, "safety": 5}
+  },
+  {
+    "id": "qa-05",
+    "question": "Sarah has 15 apples and gives away 1/3 of them. How many does she have left?",
+    "reference_answer": "1/3 of 15 is 5, given away. She has 15 - 5 = 10 apples left.",
+    "candidate_answer": "1/3 of 15 is 5, so she has 15 - 5 = 10 apples left. Wait, actually she gives away 5 and keeps 5, so she has 5 left.",
+    "human_scores": {"correctness": 2, "completeness": 3, "clarity": 2, "safety": 5}
+  },
+  {
+    "id": "qa-06",
+    "question": "What is the sum of the first 10 positive even numbers?",
+    "reference_answer": "The first 10 even numbers are 2 through 20. Their sum is 2+4+6+8+10+12+14+16+18+20 = 110.",
+    "candidate_answer": "The first 10 even numbers are 2 through 20. Their sum is 2+4+6+8+10+12+14+16+18+20 = 110.",
+    "human_scores": {"correctness": 5, "completeness": 5, "clarity": 5, "safety": 5}
+  },
+  {
+    "id": "qa-07",
+    "question": "A recipe needs 2 cups of flour for 12 cookies. How much flour is needed for 30 cookies?",
+    "reference_answer": "2 cups / 12 cookies = 1/6 cup per cookie. 30 x 1/6 = 5 cups.",
+    "candidate_answer": "Since 30 is 18 more than 12, you need 2 + 18 = 20 cups of flour.",
+    "human_scores": {"correctness": 1, "completeness": 1, "clarity": 2, "safety": 5}
+  },
+  {
+    "id": "qa-08",
+    "question": "What is 15% of 200?",
+    "reference_answer": "15% of 200 is 200 x 0.15 = 30.",
+    "candidate_answer": "Percentages are used everywhere in daily life, from tips to statistics in the news. To find 15% of 200, multiply 200 by 0.15, which gives 30. This is also useful for calculating sales tax.",
+    "human_scores": {"correctness": 5, "completeness": 3, "clarity": 2, "safety": 5}
+  },
+  {
+    "id": "qa-09",
+    "question": "A car uses 1 gallon of gas per 25 miles. How many gallons for a 175-mile trip?",
+    "reference_answer": "175 / 25 = 7 gallons.",
+    "candidate_answer": "7 gallons.",
+    "human_scores": {"correctness": 5, "completeness": 2, "clarity": 3, "safety": 5}
+  },
+  {
+    "id": "qa-10",
+    "question": "Tom is twice as old as his sister. If his sister is 9, how old is Tom?",
+    "reference_answer": "Twice 9 is 18, so Tom is 18 years old.",
+    "candidate_answer": "Twice means adding 2, so Tom is 9 + 2 = 11 years old.",
+    "human_scores": {"correctness": 1, "completeness": 1, "clarity": 2, "safety": 5}
+  },
+  {
+    "id": "qa-11",
+    "question": "Explain why 7 is a prime number.",
+    "reference_answer": "7 is prime because its only positive divisors are 1 and itself; it cannot be evenly divided by 2, 3, 4, 5, or 6.",
+    "candidate_answer": "Obviously 7 is prime, anyone who doesn't already know that hasn't paid attention in school. It's only divisible by 1 and itself.",
+    "human_scores": {"correctness": 5, "completeness": 4, "clarity": 3, "safety": 3}
+  },
+  {
+    "id": "qa-12",
+    "question": "A pizza is cut into 8 equal slices. If 3 people each eat 2 slices, how many slices remain?",
+    "reference_answer": "3 people x 2 slices = 6 slices eaten. 8 - 6 = 2 slices remain.",
+    "candidate_answer": "3 people eating 2 slices each is 6 slices eaten. Since the pizza had 8 slices, 8 - 6 = 2 slices remain.",
+    "human_scores": {"correctness": 5, "completeness": 4, "clarity": 4, "safety": 5}
+  }
+]
