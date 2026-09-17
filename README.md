@@ -33,6 +33,21 @@ LLM-as-judge is easy to fake with "ask an LLM to rate this 1-5." This implementa
 
 Fine-tuning a judge model, a UI/dashboard, production deployment, agent-as-judge.
 
+## Run
+
+```bash
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python demo.py
+```
+
+Runs the pipeline with the zero-dependency `HeuristicJudge` (no API key needed). Its
+kappa numbers are expected to be mediocre, it's a string-similarity stand-in to prove
+the pipeline works end to end, not a real judge. For real calibration numbers, swap in
+`LLMJudge` from `judge.py` (needs `ANTHROPIC_API_KEY`).
+
 ## Status
 
-Scoped, not started.
+Scaffolded: rubric, both judge backends, calibration (kappa + bias checks),
+cross-check, and reporting are implemented and pass the `demo.py` self-check.
+Dataset has 12 hand-labeled QA pairs (target is 30-50); human scores are
+self-labeled for this v1, not independently annotated.
