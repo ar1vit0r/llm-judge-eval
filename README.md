@@ -2,11 +2,9 @@
 
 Rubric-based LLM-as-judge framework, calibrated against human labels. Scores LLM outputs on a fixed benchmark and reports how trustworthy the judge itself is, not just the scores it gives.
 
-Scoped from [ar1vit0r/portfolio roadmap](https://github.com/ar1vit0r/portfolio/blob/main/roadmap/consolidated-roadmap.md), item #3 in the Python demo projects table.
-
 ## Why
 
-A judge that just asks an LLM "rate this 1-5" doesn't prove much in 2026. This one locks a rubric, measures Cohen's kappa against human labels, checks for position/verbosity bias, and cross-checks against a second model family, the signals that separate a real eval harness from a toy.
+LLM-as-judge is easy to fake with "ask an LLM to rate this 1-5." This implementation locks the rubric, measures Cohen's kappa against human labels, checks for position and verbosity bias, and cross-checks scores against a second model family, so the judge's own reliability is measured, not assumed.
 
 ## Scope
 
